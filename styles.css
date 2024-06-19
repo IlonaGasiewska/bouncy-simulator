@@ -1,0 +1,40 @@
+body{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    max-height: 800px;
+}
+
+.row {
+    display: flex;
+}
+
+.border {
+    width: 30px;
+    height: 30px;
+    background-image: url("./images/wall.png");
+    background-size: cover;
+}
+
+.board {
+    width: 30px;
+    height: 30px;
+    background-color: white;
+}
+
+.randomBounce {
+    width: 30px;
+    height: 30px;
+    background-image: url("./images/questionMark.png");
+    background-size: cover;
+}
+
+.ball {
+    width: 30px;
+    height: 30px;
+    background-image: url("./images/ball.png");
+    background-size: cover;
+    transition: transform 0.3s;
+}
